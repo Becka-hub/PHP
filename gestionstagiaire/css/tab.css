@@ -1,0 +1,8 @@
+
+.hidencontent{
+	margin-top: 10px;
+	height: 100vh;
+	background: #cecece;}
+.tabs .tab a:focus,.tabs .tab a:focus.active{
+	background: #cecece;
+}

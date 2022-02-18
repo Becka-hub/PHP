@@ -1,0 +1,133 @@
+
+.top-header {margin-bottom:15px}
+.border-box {border:1px solid #ccc;padding: 15px 25px;margin-top:60px;}
+.heading {
+	font-size: 30px;
+	font-family: 'Passion One', cursive; 
+	font-weight: 400;
+	background-color:#ccc;
+	color:#fff;
+	margin:0 0 15px;
+	text-align:center;
+	padding: 8px;
+}
+
+.form-horizontal .form-group {margin-left:0;margin-right:0;}
+footer {margin:10px 0; font: 11px arial;text-align:center;color:#ccc;}
+
+/*
+/* login
+ */
+
+body, html{
+     height: 100%;
+ 	background-repeat: no-repeat;
+ 	font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+ 	margin-top: 70px;
+}
+
+h1.title { 
+	font-size: 50px;
+	font-family: 'Passion One', cursive; 
+	font-weight: 400; 
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+.bg {background:aqua}
+.bd {border:1px solid aqua;}
+
+body {padding-top:15px;background:#eeeeee;}
+img.mpec-logo {height:70px !important;}
+.m-navbar {background:#fff}
+.navbar .brand {padding: 8px 20px;}
+.m-header {margin-top:25px !important;padding-left:15px;font-size:12px;font-family: arial;font-weight:bold;}
+.m-header .h1 {display:block; font-size:13px; color:#4e83c0;margin-bottom:5px;}
+.m-header .h2 {display:block; color:#898989; }
+.m-logname { font-size:12px; }
+.m-loginfo {padding:10px 15px; font-size:13px;}
+.m-loginfo b { color:#aeaeae; }
+.m-topmenu {font-size:10px;}
+.m-innerpage {padding-top:110px;}
+
+.m-rubrique {font-weight:bold;color:#000;}
+h2 {font-size:200%;font-weight:normal;}
+.m-titlebox {background:#153c67;color:#fff;}
+.m-blocktitle {color:#565656;font-weight:bold;font-family:tahoma;}
+.m-table {font-family:tahoma;}
+table td {border:none !important;width:100% !important;}
+table th {text-align:center !important;line-height:1.4 !important;font-size:12px;}
+table input {margin:0 !important;}
+table .m-total {border-top:1px solid #acacac !important; background:#d2d2d2;}
+table .m-totalbig {border-top:2px solid #102d4d !important; background:#153c67;color:#fff;font-weight:bold;}
+.m-milliers {display:block;font-size:11px;}
+.align-center {text-align:center;}
+.mgbot {margin:20px;}
+
+.graybg {background:#ccc; border:2px solid #fff !important;}
+.table2c td  {width:50% !important;}
+.table3c td  {width:33% !important;}
+.table4c td  {width:25% !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

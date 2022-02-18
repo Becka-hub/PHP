@@ -1,0 +1,20 @@
+.navbar ul li a {
+    color: #fff!important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: 800;
+}
+
+.button_view {
+    display: none;
+}
+
+.button_view_okey {
+    display: block;
+}
+
+.change_resultatNone {
+    display: none!important;
+}

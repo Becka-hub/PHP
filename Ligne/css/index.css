@@ -1,0 +1,326 @@
+body {
+    background-color: white;
+}
+
+
+/*manomboka ny navbar*/
+
+.image_profil {
+    border-radius: 50%;
+    box-shadow: 0 0 1px 3px rgba(0, 135, 255, 0.84);
+}
+
+.navbar {
+    padding: 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul li {
+    margin-left: 10px;
+}
+
+.navbar ul li a {
+    color: rgb(3, 127, 250)!important;
+}
+
+.navbar ul li i {
+    color: white;
+    font-size: 15px;
+    background: rgb(7, 140, 250);
+    padding: 12px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.navbar ul li i:hover {
+    background: rgb(250, 40, 40);
+    transform: scale(1.2);
+}
+
+.dropdown .dropdown-menu a {
+    color: black!important;
+}
+
+.nom_utilisateur {
+    margin-left: 10px;
+    margin-top: 13px;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(24, 24, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.semestre {
+    font-weight: bold;
+    color: rgb(42, 42, 43)!important;
+}
+
+.dropdown-menu {
+    margin-left: -60px;
+}
+
+.dropdown .dropdown-menu i {
+    color: white;
+    font-size: 15px;
+    background: rgb(247, 34, 52);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10%!important;
+}
+
+
+/*tapitra eto ny navbar*/
+
+
+/*header*/
+
+.header {
+    background: url(../image/background_ligne.png) no-repeat;
+    height: 105vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.image_cesar {
+    margin-top: 125px!important;
+}
+
+.image_teacher {
+    margin-top: 185px !important;
+    margin-left: 25px;
+}
+
+.description {
+    margin-top: 200px !important;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.emedia {
+    font-size: 38px;
+    font-weight: 800;
+    color: rgb(7, 140, 250) !important;
+    margin-bottom: 50px;
+    margin-top: 34px;
+}
+
+.methode {
+    margin-right: -50px;
+}
+
+.paragraphe {
+    box-shadow: 0px 0px 2px black;
+    padding: 13px;
+    color: rgb(255, 255, 255);
+    background: rgb(7, 140, 250) !important;
+}
+
+#bar {
+    color: rgb(254, 254, 255) !important;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    background: rgb(7, 140, 250);
+    border-radius: 10px;
+    transition: 2s ease;
+    animation: fromBottom;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+#bar:hover {
+    color: #ff0000 !important;
+}
+
+@keyframes fromBottom {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+/*tapitra eto ny header*/
+
+
+/*Manomboka eto ny prof*/
+
+.prof {
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+.prof .info-box {
+    color: #6e6e6e;
+    padding: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    height: auto;
+    margin-right: 20px;
+}
+
+.prof .info-box h3 {
+    font-size: 20px;
+    color: rgb(7, 140, 250) !important;
+    font-weight: 800;
+}
+
+.proft .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 0 68px;
+}
+
+
+/*tapitra eto ny prof*/
+
+
+/*manomboka eto ny cours*/
+
+.cours {
+    margin-top: 50px;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 0px 0px 2px black;
+}
+
+.nav-tabs .nav-item {
+    box-shadow: 0px 0px 2px black;
+    cursor: pointer;
+    transition: .6s;
+    margin-right: 30px;
+}
+
+.nav-tabs li a {
+    color: rgb(43, 42, 42);
+    font-weight: 800;
+}
+
+.nav-tabs {
+    border: none!important;
+    padding: 0!important;
+}
+
+.nav-tabs li a:hover {
+    color: rgb(3, 197, 231)!important;
+    font-size: 15px;
+}
+
+.fa-video-camera {
+    font-size: 15px !important;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-right: 10px;
+    background: rgb(252, 52, 52);
+}
+
+.fa-file-text {
+    background: white;
+    font-size: 24px!important;
+    padding: 10px;
+    color: rgb(248, 51, 61);
+    border-radius: 50%;
+    margin-right: 10px;
+    background: white;
+}
+
+.fa-print {
+    font-size: 15px!important;
+    padding: 10px;
+    color: rgb(253, 253, 253);
+    border-radius: 50%;
+    margin-right: 10px;
+    background: rgb(252, 52, 52);
+}
+
+.fa-filter {
+    background: white;
+    font-size: 24px!important;
+    padding: 10px;
+    color: rgb(250, 46, 46);
+    border-radius: 50%;
+    margin-right: 10px;
+    background: white;
+}
+
+.fa-file {
+    font-size: 15px!important;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-right: 10px;
+    background: rgb(252, 52, 52);
+}
+
+.fa-edit {
+    background: white;
+    font-size: 24px!important;
+    padding: 10px;
+    color: rgb(247, 44, 54);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    background: linear-gradient(-90deg, #01e6f8, #1d3ede);
+    color: rgb(245, 248, 248)!important;
+}
+
+.nav-tabs li:hover {
+    transform: scale(1.1)!important;
+    z-index: 2;
+    background-color: white!important;
+}
+
+.tabs-cententes {
+    height: 74vh;
+}
+
+.nav-pills a {
+    color: rgb(3, 135, 250)!important;
+    font-weight: 800;
+}
+
+.nav-pills .nav-link {
+    background: linear-gradient(-90deg, #01e6f8, #1d3ede);
+    cursor: pointer;
+    transition: .6s;
+    color: white!important;
+    margin-bottom: 10px;
+}
+
+.verticales {
+    box-shadow: 0px 0px 2px black;
+}
+
+.nav-pills .nav-link.active {
+    background: white!important;
+    color: #07BADF!important;
+    box-shadow: 0px 0px 2px black;
+}
+
+.image_cours {
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.image_verticale {
+    margin-top: 70px;
+}
+
+
+/*tapitra eto ny cours*/

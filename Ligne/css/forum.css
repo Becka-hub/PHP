@@ -1,0 +1,282 @@
+.image_profil {
+    border-radius: 50%;
+    box-shadow: 0 0 1px 3px rgba(0, 135, 255, 0.84);
+}
+
+.navbar {
+    padding: 0;
+    box-shadow: 0px 0px 2px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar ul li a {
+    color: rgb(3, 127, 250)!important;
+}
+
+.navbar ul li i {
+    color: white;
+    font-size: 15px;
+    background: rgb(7, 140, 250);
+    padding: 12px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.navbar ul li i:hover {
+    background: rgb(250, 40, 40);
+    transform: scale(1.2);
+}
+
+.dropdown .dropdown-menu a {
+    color: black!important;
+}
+
+.nom_utilisateur {
+    margin-left: 10px;
+    margin-top: 13px;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(24, 24, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.semestre {
+    font-weight: bold;
+    color: rgb(42, 42, 43)!important;
+}
+
+.card {
+    width: 218px !important;
+    box-shadow: 0px 0px 2px black;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.separation {
+    margin-left: 84px;
+}
+
+.btn-primary {
+    background: linear-gradient(-90deg, #01e6f8, #1d3ede);
+    border: none!important;
+}
+
+.card-header-second {
+    box-shadow: 1px 7px 15px #a2a2a2;
+    margin: -31px -18px 0px -18px;
+    height: 93px;
+    background: linear-gradient(-90deg, #01e6f8, #1d3ede);
+}
+
+
+/*Manomboka ny message*/
+
+#message {
+    height: 100vh;
+}
+
+.sary_message {
+    margin-top: 150px;
+}
+
+.corp_message {
+    margin-top: 70px;
+    height: 90%;
+    width: 70%;
+    box-shadow: 0px 0px 2px black;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.header_message {
+    border-bottom: 1px solid rgb(199, 199, 197);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.header_message img {
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    margin-top: 3px;
+    height: 40px;
+    border: 3px solid rgb(7, 140, 250);
+    ;
+}
+
+.profil_nom {
+    color: rgb(43, 42, 42);
+    font-weight: 800;
+}
+
+.body_message {
+    height: 340px;
+    width: 100%;
+    box-shadow: 0px 0px 2px rgb(85, 85, 85);
+}
+
+.input_message {
+    width: 100%;
+}
+
+.btn-login {
+    background: none;
+    padding: 2px;
+    width: 100px;
+    border-radius: 20px;
+    font-weight: normal;
+    color: #07BADF;
+    border: 1px solid #07BADF;
+}
+
+.btn-login:hover {
+    background: linear-gradient(-90deg, #01e6f8, #1d3ede);
+    color: white;
+}
+
+.form-control {
+    font-size: 15px;
+    min-height: 48px;
+    font-weight: 500;
+}
+
+.form-control:focus {
+    border: 1px solid #07BADF;
+}
+
+.btn-login:hover {
+    background: linear-gradient(-90deg, #1d3ede, #01e6f8);
+    color: honeydew;
+}
+
+.form-control {
+    font-size: 15px;
+    min-height: 48px;
+    font-weight: 500;
+}
+
+.message_envoyer {
+    background-color: rgb(2, 229, 245);
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+}
+
+.reponse {
+    background-color: rgb(194, 194, 194);
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+}
+
+.text {
+    color: white;
+}
+
+.docteur {
+    border-radius: 50%;
+    border: 2px solid rgb(246, 247, 246);
+}
+
+.text-prenom {
+    color: rgb(246, 248, 246);
+    font-weight: bold;
+}
+
+.prof {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0!important;
+}
+
+.prof .info-box {
+    color: #6e6e6e;
+    padding-left: 10px;
+    padding-top: 5;
+    padding-bottom: 5;
+    transition: 0.3s;
+    height: auto;
+    margin-right: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.prof .info-box h3 {
+    font-size: 17px;
+    color: rgb(7, 140, 250) !important;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+.proft .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 0 68px;
+}
+
+.membre {
+    border: 1px dashed rgb(248, 45, 45);
+    font-size: 15px !important;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background: rgb(250, 40, 40);
+    margin-top: 10px;
+}
+
+.image_actif {
+    border-radius: 50%;
+    border: 2px solid rgb(7, 140, 250);
+}
+
+.forum {
+    box-shadow: 0px 0px 2px black;
+    height: 70vh;
+    width: 70%;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.corp-groups {
+    height: 50vh;
+}
+
+.head_forum {
+    box-shadow: 0px 2px 0px #bdbdbd;
+    margin-top: -10px;
+}
+
+.head_forum i {
+    font-size: 15px !important;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background: rgb(7, 140, 250);
+    margin-right: 15px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+
+.champ-text {
+    width: 100%;
+    margin-top: 79px;
+}
+
+.input-header-message {
+    width: 75%;
+    padding: 0;
+}
+
+
+/*Tapitra ny message*/
