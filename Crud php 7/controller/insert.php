@@ -1,4 +1,7 @@
 <?php
+
+namespace App\controller;
+
 require_once('model/Crud.php');
 
 use App\model\Crud;

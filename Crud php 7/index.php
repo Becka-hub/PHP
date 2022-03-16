@@ -113,7 +113,7 @@
        function readData(){
            var read = "read";
            $.ajax({
-             url:"insert.php",
+             url:"controller/insert.php",
              method:"POST",
              data:{read:read},
              success:function(data){
@@ -130,7 +130,7 @@
                 alert("Veuiller remplir tous les champs");
               }else{
               $.ajax({
-                 url:"insert.php",
+                 url:"controller/insert.php",
                  method:"POST",
                  data:{fname:fname,lname:lname,email:email,telephone:telephone},
                  success:function(data){
@@ -153,7 +153,7 @@
              var conf=confirm("Vous êtes sur de le suprimer?");
              if(conf==true){
                $.ajax({
-                 url:"insert.php",
+                 url:"controller/insert.php",
                  method:"POST",
                  data:{deleteid:deleteid},
                  success:function(data){
@@ -166,7 +166,7 @@
 
           function GetUser(Upid){
              $('#hiddenID').val(Upid);
-             $.post("insert.php",{Upid:Upid},
+             $.post("controller/insert.php",{Upid:Upid},
              function(data){
                var user=JSON.parse(data);
                $('#update_fname').val(user.fname);
@@ -185,7 +185,7 @@
             var Lname=$('#update_lname').val();
             var Email=$('#update_email').val();
             var Telephone=$('#update_telephone').val();
-            $.post("insert.php",{
+            $.post("controller/insert.php",{
               idUser:idUser,
               Fname:Fname,
               Lname:Lname,
